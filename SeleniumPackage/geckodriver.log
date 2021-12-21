@@ -1,0 +1,17 @@
+1640079705824	geckodriver	INFO	Listening on 127.0.0.1:52250
+1640079708873	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52251" "-no-remote" "-profile" "C:\\Users\\cca\\AppData\\Local\\Temp\\rust_mozprofileXXqzVY"
+1640079712681	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\cca\\AppData\\Local\\Temp\\rust_mozprofileXXqzVY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52251/devtools/browser/9615f905-1a57-4a73-b2cb-52f131366986
+1640079726346	Marionette	INFO	Listening on port 52258
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1640079726552	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640079757533	Marionette	INFO	Stopped listening on port 52258
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NS_ERROR_FAILURE
